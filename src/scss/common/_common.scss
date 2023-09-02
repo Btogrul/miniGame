@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+@keyframes char{
+    0% {transform: translateY(0px);}
+    30% {transform: translateY(-5px);}
+    70% {transform: translateY(-10px);}
+    90% {transform: translateY(-5px);}
+    100% {transform: translateY(0);}
+};
+
+
+@keyframes mashin {
+    0% {transform: translateX(0);}
+    100% {transform: translateX(700px);}
+}
